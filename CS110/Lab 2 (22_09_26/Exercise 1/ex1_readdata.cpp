@@ -33,22 +33,17 @@ const int inchesInSqFt = 144;
 
 int main()
 {
-     int length;  // measured in inches
-     int width;   // measured in inches
+     float length;  // measured in inches (changed to float)
+     float width;   // measured in inches (changed to float)
      float price; // sold by square foot
      float cost;
 
-     /*********************************************************************
-      *   To complete the program, replace this comment with code that
-      *   prompts the user and reads input data for the three variables:
-      *      length, width, and price.
-      *********************************************************************/
      cout << "Enter the length of the glass (inches): ";
-     cin >> length;
+     cin >> length; // Get the lenght
      cout << "Enter the width of the glass (inches): ";
-     cin >> width;
+     cin >> width; // Get the width
      cout << "Enter the price of glass per square foot: $";
-     cin >> price;
+     cin >> price; // Get the price
 
      // Feedback
      cout << fixed;
