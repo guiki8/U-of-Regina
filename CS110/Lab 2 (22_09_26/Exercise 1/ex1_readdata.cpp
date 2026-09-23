@@ -49,7 +49,7 @@ int main()
      cout << fixed;
      cout << "Width:  " << setw(6) << width << " in." << endl
           << "Length: " << setw(6) << length << " in. " << endl
-          << "Price: $" << setw(6) << setprecision(2) << price
+          << "Price: $" << setw(6) << setprecision(3) << price
           << " per Sq. Ft." << endl;
 
      // Results
