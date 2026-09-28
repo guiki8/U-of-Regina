@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//This code, will show types of common errors in C++ programming language.
-
+// Types of common errors in C++ programming language.
 /* int main(); // Example of a syntax error (semicolon)
 {
     // Example of a syntax error (missing semicolon)
@@ -32,3 +31,24 @@ using namespace std;
 
     return 0;
 } */
+
+// Conditional operators
+int main() {
+    int a = 10;
+    int b = 20;
+
+    // Example of a conditional operator (ternary operator)
+    int max = (a > b) ? a : b;
+    cout << "The maximum value is: " << max << endl;
+
+    // Example of an if-else statement
+    if (a > b) {
+        cout << "a is greater than b" << endl;
+    } else if (a < b) {
+        cout << "b is greater than a" << endl;
+    } else {
+        cout << "a and b are equal" << endl;
+    }
+
+    return 0;
+}
