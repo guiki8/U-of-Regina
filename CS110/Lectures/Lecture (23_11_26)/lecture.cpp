@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     // Declare an array of 5 integers
-    int numbers[5];
+    int numbers[5]; // datatype variable_name[size]
 
     // Initialize the array elements
     numbers[0] = 10;
